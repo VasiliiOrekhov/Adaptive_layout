@@ -1,0 +1,10 @@
+@import url("./__image/multi-platform-publishing__image.css");
+@import url("../card/card.css");
+
+.multi-platform-publishing {
+    margin: 45px 90px 0;
+    background-color: #F1F2F3;
+    display: flex;
+    justify-content: space-between;
+    
+}

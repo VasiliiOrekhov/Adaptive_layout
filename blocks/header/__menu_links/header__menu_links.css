@@ -1,0 +1,13 @@
+.header__menu_links {
+font-family: "sgbook20";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+}
+
+.header__menu_links:last-child {
+    padding-left: 53px;
+    
+}

@@ -1,0 +1,10 @@
+@import url("../card/card.css");
+@import url("./__image/pc-game-developers__image.css");
+
+.pc-game-developers {
+    margin: 0 90px 0;
+    background-color: #070708;
+    display: flex;
+    justify-content: space-between;
+    
+}

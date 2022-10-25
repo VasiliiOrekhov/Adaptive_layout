@@ -1,0 +1,16 @@
+@import url("./__logo/header__logo.css");
+@import url("./__menu/header__menu.css");
+@import url("./__logo-name/header__logo_name.css");
+@import url("./__menu_link_arrow/header__menu_link_arrow.css");
+@import url("./__menu_links/header__menu_links.css");
+@import url("./__buttons/header__buttons.css");
+
+.header {
+    
+    display: flex;    
+    position: relative;
+    width: 1440px;
+    height: 140px;
+    background-color: white;
+    
+}

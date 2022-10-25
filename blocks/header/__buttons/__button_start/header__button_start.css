@@ -1,0 +1,13 @@
+.header__button_start {
+    font-family: "sgmedium20";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3D46F5;
+    background-color: white;
+    border: 1px solid #3D46F5;
+    width: 172px;
+    height: 48px;
+    margin-left: 17px;
+}

@@ -1,0 +1,15 @@
+.header__button_lang {
+    font-family: "sgbook20";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    
+    border: 1px solid rgba(24, 23, 28, 0.05);
+    width: 75px;
+    height: 48px;
+    margin-left: 10px;
+    padding-left: 3px;
+    
+}
