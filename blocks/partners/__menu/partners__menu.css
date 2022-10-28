@@ -2,13 +2,8 @@
 
 .partners__menu {
     display: flex;
-    
     justify-content: space-between;
     align-items: center;
     margin: auto 160px auto;
     padding-top: 60px;
-    
-
-    
-
 }

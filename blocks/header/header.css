@@ -6,11 +6,9 @@
 @import url("./__buttons/header__buttons.css");
 
 .header {
-    
     display: flex;    
     position: relative;
     width: 1440px;
     height: 140px;
     background-color: white;
-    
 }

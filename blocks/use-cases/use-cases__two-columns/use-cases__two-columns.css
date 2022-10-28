@@ -1,0 +1,13 @@
+@import url("./__shadow/use-cases__two-columns_shadow.css");
+@import url("./__text/use-cases__two-columns_text.css");
+
+.use-cases__two-columns {
+    display: grid;
+    grid-template-columns: 630px 420px;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 70px;
+    grid-column-gap: 70px;
+    grid-row-gap: 15px;
+    overflow: hidden;
+}

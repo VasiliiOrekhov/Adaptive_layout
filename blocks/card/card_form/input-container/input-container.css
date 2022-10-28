@@ -1,0 +1,12 @@
+@import url("./__input/input-container__input.css");
+@import url("./__label/input-container__label.css");
+@import url("./__select/input-container__select.css");
+@import url("../card_form.css");
+@import url("../input-container/__textarea/input-container__textarea.css");
+
+.input-container {
+    margin: 89px 60px 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}

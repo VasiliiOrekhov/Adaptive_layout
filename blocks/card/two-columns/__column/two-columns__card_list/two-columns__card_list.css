@@ -2,9 +2,6 @@
 @import url("./two-columns__card_list_title/two-columns__card_list_title.css");
 @import url("./two-columns__card_list_button/two-columns__card_list_button.css");
 
-
 .two-columns__card_list {
-    margin: 30px 45px 0;
-    
-    
+    margin: 30px 45px 0; 
 }

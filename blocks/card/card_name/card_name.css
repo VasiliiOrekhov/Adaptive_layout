@@ -10,14 +10,14 @@
     margin: 0;
 }
 
-
 .pc-game-developers .card_name {
-    color: rgba(255, 255, 255, 0.7);
-    
+    color: rgba(255, 255, 255, 0.7);  
 }
 
+.use-cases .card_name {
+    color: rgba(255, 255, 255, 0.7); 
+}
 
 .revenue-opportunities .card_name {
-    color: rgba(255, 255, 255, 0.7);
-    
+    color: rgba(255, 255, 255, 0.7); 
 }

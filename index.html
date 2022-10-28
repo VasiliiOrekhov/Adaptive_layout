@@ -6,12 +6,13 @@
     <link href="./styles/style.css" rel="stylesheet"> 
     <title>Xsolla</title>
 </head>
+
 <body>
     <div class="page">
         <header class="header">
           <img src="./images/header/x.svg" class="header__logo" alt="logo Xsolla">
           <img src="./images/header/Xsolla.svg" class="header__logo_name" alt="Xsolla">
-          <div class="header__menu">
+          <nav class="header__menu">
             <div class="header__menu_links">Products<img src="./images/header/Vector (Stroke).png" class="header__menu_link_arrow"></div>
             <div class="header__menu_links">Solutions<img src="./images/header/Vector (Stroke).png" class="header__menu_link_arrow"></div>
             <div class="header__menu_links">Partners</div>
@@ -19,14 +20,14 @@
             <div class="header__menu_links">Company</div>
             <div class="header__menu_links">Documentation</div>
             <div class="header__menu_links">Support<img src="./images/header/Vector (Stroke).png" class="header__menu_link_arrow"></div>
-          </div>
+          </nav>
           <div class="header__buttons">
             <button class="header__button_start">Get started</button>
-            <button class="header__button_lang">En <img src="./images/header/Vector (Stroke).png" class="header__menu_link_arrow"></button>
+            <button class="header__button_lang">En&nbsp;<img src="./images/header/Vector (Stroke).png" class="header__menu_link_arrow"></button>
           </div>
         </header>
 
-        <section class="pc-game-developers">
+        <main class="pc-game-developers">
           <div class="card_text">
             <h2 class="card_name">PC GAME DEVELOPERS</h2>
             <h1 class="card_title">UNLOCK YOUR PC GAME&rsquo;S POTENTIAL</h1>
@@ -39,7 +40,7 @@
             </div>
           </div>
           <img src="./images/pc-game-developers/img--export.png" class="pc-game-developers__image" alt="PC GAME DEVELOPERS">
-        </section>
+        </main>
 
         <section class="partners">
           <div class="partners__menu">
@@ -172,12 +173,78 @@
           </div>
         </section>
 
+        <section class="get-our-ebook">
+          <div class="card_text">
+            <div class="card_name"><div>GET OUR EBOOK</div><div class="card_name_line"></div></div>
+            <img src="./images/get-our-ebook/placeholder.png" class="get-our-ebook__image" alt="GET OUR EBOOK">
+            <h1 class="card_title"> EASILY MANAGE RISK WITH A MERCHANT OF RECORD</h1>
+            <h3 class="card_paragraph">Find out how to ensure the highest degree of support for your ecommerce business by having Xsolla be your Merchant of Record so you can focus on developing and creating great games.</h3>
+          </div>
+          <form class="card_form">
+            <fieldset class="input-container">
+              <label for="name" class="input-container__label" >Your name</label>
+              <input type="name" id="name" class="input-container__input" required="true">
+              <label for="email" class="input-container__label">Your email</label>
+              <input type="email" id="email" class="input-container__input" required="true">
+              <label for="company" class="input-container__label">Company</label>
+              <input type="company" id="company" class="input-container__input" required="true">
+              <label for="contry" class="input-container__label">Contry</label>
+              <select class="input-container__select" name="contry">
+                <option selected value="select">Select...</option>
+                <option>England</option>
+                <option>Spain</option>
+                <option>Finland</option>
+              </select>
+              <button class="pink-button">Download</button>
+            </fieldset>
+          </form>
+        </section>
 
-        <main class="content">
-          
-        </main>
+        <section class="use-cases">
+          <div class="card_text">
+            <div class="card_name"><div>USE CASES</div><div class="card_name_line"></div></div>
+            <h1 class="card_title">FORWARD TOGETHER</h1>
+          </div>
+          <div class="use-cases__logo">
+            <img src="./images/use-cases/team-17_logo_svg (1).png" alt="TEAM 17">
+            <img src="./images/use-cases/wemade_logo_svg (1).png" alt="WEMADE">
+            <img src="./images/use-cases/smite_logo_svg.png" alt="SMITE">
+            <img src="./images/use-cases/phoenix-labs_logo_svg.png" alt="PHOENIX">
+            <button class="use-case__button"><img src="./images/use-cases/→ (1).png"></button>
+            <button class="use-case__button"><img src="./images/use-cases/→.png"></button>
+          </div>
+          <div class="use-cases__two-columns">
+            <div  class="use-cases__two-columns_shadow">
+              <img src="./images/use-cases/shadow.png">
+              <img src="./images/use-cases/sqr.png">
+            </div>
+            <img src="./images/use-cases/picture.png" alt="TEAM17">
+            <img src="./images/use-cases/picture (1).png" alt="TEAM17">
+            <h3 class="use-cases__two-columns_text">Team 17 publishes their complete catalog in a bespoke online shop and increases game sales with help from Xsolla.</h3>
+            <h3 class="use-cases__two-columns_text">WeMade partners with Xsolla to bring their highly successful The Legend of Mir to 100+ countries.</h3>
+          </div>
+        </section>
+
+        <section class="contact-us">
+          <div class="card_text">
+            <div class="card_name"><div>CONTACT US</div><div class="card_name_line"></div></div>
+            <h1 class="card_title">TALK TO AN EXPERT</h1>
+            <h3 class="card_paragraph">Ready to take the best next step for your business? Reach out to our experts and learn how to start earning more and spending less.</h3>
+          </div>
+          <form class="card_form">
+            <fieldset class="input-container">
+              <label for="name" class="input-container__label" >Your name</label>
+              <input type="name" id="name" class="input-container__input" required="true">
+              <label for="email" class="input-container__label">Your email</label>
+              <input type="email" id="email" class="input-container__input" required="true">
+              <label for="message" class="input-container__label">Your massage</label>
+              <textarea name="message" class="input-container__textarea"></textarea>
+              <button class="pink-button">Contact us</button>
+            </fieldset>
+          </form>
+        </section>
+
         <footer class="footer">
-          
         </footer>
     </div>
 </body>

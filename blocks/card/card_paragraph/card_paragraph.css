@@ -12,7 +12,14 @@
 .pc-game-developers .card_paragraph {
     color: #FFFFFF;
     font-size: 16px;
-    line-height: 145%;
+    line-height: 1.45;
     margin: 30px 0 0;
     width: 560px;
+}
+
+.get-our-ebook .card_paragraph {
+    width: 430px;
+}
+.contact-us .card_paragraph {
+    width: 420px;
 }

@@ -1,0 +1,13 @@
+.use-cases__two-columns_text {
+    font-family: "sgbook20";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin: 0px 0 0;
+    width: 630px; 
+}
+.use-cases__two-columns_text:last-child {
+    color: rgba(255, 255, 255, 0.5);  
+}

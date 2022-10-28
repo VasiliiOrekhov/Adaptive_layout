@@ -1,0 +1,23 @@
+.input-container__input {
+    width: 532px;
+    height: 48px;
+    margin: 5px 0 23px;
+    padding: 0;
+    background-color: rgba(24, 23, 28, 0.07);
+    border: none;
+    font-family: "sgbook20";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 14px;
+}
+
+.input-container__input:last-child {
+    margin: 5px 0 24px;
+}
+
+.input-container__input:valid {
+    background-color: white;
+    border: 1px solid #18171C;
+}

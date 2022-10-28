@@ -9,16 +9,23 @@
     width: 500px;
 }  
 
-
 .pc-game-developers .card_title {
     color: #FFFFFF;
     font-size: 86px;
     line-height: 85px;
-    margin: 30px 0 0;
-    
+    margin: 30px 0 0; 
 }
 
+.use-cases .card_title {
+    color: #FFFFFF;
+    width: 520px;
+}
 .revenue-opportunities .card_title {
     color: #FFFFFF;
     width: 520px;
+}
+
+.get-our-ebook .card_title {
+    margin: 22px 0 0;
+    width: 430px;
 }

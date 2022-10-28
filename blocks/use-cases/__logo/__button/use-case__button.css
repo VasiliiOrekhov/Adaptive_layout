@@ -1,0 +1,9 @@
+.use-case__button {
+    background-color: #18171C;
+    border: none;
+    margin-left: 375px;
+}
+
+.use-case__button:last-child {
+    margin-left: -60px;
+}
