@@ -1,0 +1,14 @@
+@import url("./input-container/input-container.css");
+
+.card_form {
+    width: 700px;
+    height: 592px;
+    background-color: #F1F2F3;
+    margin: 63px 0 0;
+    border: none;
+}
+
+.contact-us .card_form {
+    margin: 75px 0 0;
+    height: 578px;
+}

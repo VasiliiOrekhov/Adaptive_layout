@@ -1,0 +1,7 @@
+@import url("./grey-button/grey-button.css");
+@import url("./pink-button/pink-button.css");
+
+.card_two-buttons {
+    margin-top: 65px;
+    display: flex;  
+}

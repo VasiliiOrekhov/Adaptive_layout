@@ -1,0 +1,27 @@
+@import url("../card_two-buttons/card_two-buttons.css");
+
+.card_text {
+    padding: 80px 0 100px 70px;
+    width: 560px;   
+}
+
+.pc-game-developers .card_text {
+    padding: 60px 0 100px 70px;
+}
+
+.revenue-opportunities .card_text {
+    padding: 80px 0 0 70px;
+}
+
+.get-our-ebook .card_text {
+    padding: 65px 0 100px 70px;
+    width: 420px;
+}
+
+.use-cases .card_text {
+    padding: 80px 0 0 70px;
+}
+
+.contact-us .card_text {
+    width: 420px;
+}

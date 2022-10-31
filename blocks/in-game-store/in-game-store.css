@@ -1,0 +1,9 @@
+@import url("../card/card.css");
+@import url("./__image/in-game-store__image.css");
+
+.in-game-store {
+    background-color: #F1F2F3;
+    margin: 45px 90px 0;
+    display: flex;
+    justify-content: space-between;
+}

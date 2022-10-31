@@ -1,0 +1,7 @@
+@import url("../card/card.css");
+.revenue-opportunities {
+    background-color: #18171C;
+    margin: 45px 90px 0;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}

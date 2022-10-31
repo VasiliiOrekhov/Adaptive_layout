@@ -1,0 +1,12 @@
+@import url("./__button/use-case__button.css");
+
+.use-cases__logo {
+    display: grid;
+    height: max-content;
+    width: 1120px;
+    grid-template-columns: repeat(6, auto);
+    grid-column-gap: 61px;
+    align-items: center;
+    justify-items: center;
+    margin: 75px 0 0 70px;
+}

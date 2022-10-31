@@ -1,0 +1,12 @@
+.two-columns__card_list_button {
+    font-family: "sgbook20";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border: 0;
+    color: #FF0055;
+    background-color: white;
+    padding-top: 23px;
+    margin: 0 0 45px -5px;  
+}

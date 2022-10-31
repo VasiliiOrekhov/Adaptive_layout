@@ -1,0 +1,10 @@
+@import url("./button-black/button-black.css");
+
+.card_buttons-black {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 55px 0 0;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    justify-content: start;
+}

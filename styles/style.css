@@ -1,0 +1,19 @@
+@import url('./normalize.css');
+@import url('../fonts/fonts.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/partners/partners.css');
+@import url('../blocks/pc-game-developers/pc-game-developers.css');
+@import url('../blocks/payments/payments.css');
+@import url('../blocks/game-sales/game-sales.css');
+@import url('../blocks/in-game-store/in-game-store.css');
+@import url('../blocks/multi-platform-publishing/multi-platform-publishing.css');
+@import url('../blocks/revenue-opportunities/revenue-opportunities.css');
+@import url("../blocks/get-our-ebook/get-our-ebook.css");
+@import url("../blocks/use-cases/use-cases.css");
+@import url("../blocks/contact-us/contact-us.css");
+
+body {
+  max-width: 1440px;
+  background-color: white;
+  margin: 0 auto 0;
+}

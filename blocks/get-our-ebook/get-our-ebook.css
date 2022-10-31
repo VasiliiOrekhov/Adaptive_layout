@@ -1,0 +1,9 @@
+@import url("./__image/get-our-ebook__image.css");
+@import url("../card/card.css");
+
+.get-our-ebook {
+    background-color: #FFFFFF;
+    margin: 0 90px 0;
+    display: flex;
+    justify-content: space-between;
+}

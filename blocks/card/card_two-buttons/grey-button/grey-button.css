@@ -1,0 +1,13 @@
+.grey-button {
+    font-family: "sgmedium20";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #F1F2F3;
+    border: 1px solid #18171C;
+    color: #18171C;
+    width: 200px;
+    height: 48px;
+    margin-left: 10px;
+}

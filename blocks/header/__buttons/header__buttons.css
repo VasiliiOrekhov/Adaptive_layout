@@ -1,0 +1,6 @@
+@import url("./__button_start/header__button_start.css");
+@import url("./__button_start_lang/header__button_lang.css");
+
+.header__buttons {
+    margin-top: 49px;
+}

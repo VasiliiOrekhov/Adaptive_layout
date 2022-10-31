@@ -1,0 +1,9 @@
+@import url("./__column/two-columns__column.css");
+@import url("./__image/two-columns__image.css");
+
+.two-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 546px);
+    margin: 63px 0 0 70px;
+    grid-column-gap: 28px;
+}

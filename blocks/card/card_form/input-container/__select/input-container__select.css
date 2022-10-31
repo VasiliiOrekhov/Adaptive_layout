@@ -1,0 +1,15 @@
+.input-container__select {
+    box-sizing: border-box;
+    width: 560px;
+    height: 48px;
+    margin-top: 5px;
+    padding: 0;
+    background-color: white;
+    border: none;
+    font-family: "sgbook20";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 14px;
+}

@@ -1,0 +1,16 @@
+@import url("./_list-text/card_list-text.css");
+@import url("./_title/card_list_title.css");
+
+.card_list {
+    margin: 45px 0 0;
+    width: 500px;
+}
+
+.card_list ul {
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+.in-game-store .card_list {
+    width: 490px;
+}

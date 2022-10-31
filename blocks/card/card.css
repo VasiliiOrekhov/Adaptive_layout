@@ -1,0 +1,9 @@
+@import url("card_name/card_name.css");
+@import url("card_text/card_text.css");
+@import url("./card_title/card_title.css");
+@import url("./card_paragraph/card_paragraph.css");
+@import url("./card_buttons-black/card_buttons-black.css");
+@import url("./card_list/card_list.css");
+@import url("./card_two-buttons/card_two-buttons.css");
+@import url("./two-columns/two-columns.css");
+@import url("./card_form/card_form.css");

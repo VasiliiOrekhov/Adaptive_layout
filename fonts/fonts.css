@@ -1,0 +1,28 @@
+@font-face {
+    src: url("./SharpGroteskBook20.otf") format("truetype");
+    font-family: "sgbook20";
+}
+@font-face {
+    src: url("./SharpGroteskMedium20.otf") format("truetype");
+    font-family: "sgmedium20";
+}
+@font-face {
+    src: url(./SharpGroteskSmBold16.otf) format("truetype");
+    font-family: "sgbold16";
+}
+@font-face {
+    src: url(./SharpGroteskSmBold16.woff) format("woff");
+    font-family: "sgbold16";
+}
+@font-face {
+    src: url(./SharpGroteskSmBold16.woff2) format("woof2");
+    font-family: "sgbold16";
+}
+@font-face {
+    src: url(./SharpGroteskSmBold20.woff) format("woff");
+    font-family: "sgbold20";
+}
+@font-face {
+    src: url(./SharpGroteskSmBold20.woff2) format("woof2");
+    font-family: "sgbold20";
+}

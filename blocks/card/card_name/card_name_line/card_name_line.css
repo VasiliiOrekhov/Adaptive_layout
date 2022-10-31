@@ -1,0 +1,14 @@
+.card_name_line {
+    margin: auto 0 auto 20px;
+    width: 120px;
+    height: 0px;
+    border: 1px solid rgba(24, 23, 28, 0.7);
+}
+
+.revenue-opportunities, .use-cases .card_name_line {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.revenue-opportunities .card_name_line {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
