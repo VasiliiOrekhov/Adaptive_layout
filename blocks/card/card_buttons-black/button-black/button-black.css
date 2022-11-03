@@ -17,3 +17,27 @@
     grid-column-end: 4;
 }
 
+
+  @media screen and (max-width: 768px){
+    .button-black {
+        padding: 7px 20px 7px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .button-black:nth-last-child(-n+2) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+  }
+  @media screen and (max-width: 360px){
+    .button-black {
+        padding: 7px 20px 6px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .button-black:nth-last-child(-n+2) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+  }

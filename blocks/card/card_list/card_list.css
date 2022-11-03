@@ -3,14 +3,32 @@
 
 .card_list {
     margin: 45px 0 0;
-    width: 500px;
+    /* width: 500px; */
 }
 
 .card_list ul {
     padding-left: 35px;
-    padding-right: 10px;
 }
 
-.in-game-store .card_list {
+/* .in-game-store .card_list {
     width: 490px;
+} */
+
+@media screen and (max-width: 1024px){
+    .card_list {
+        margin: 50px 0 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .card_list {
+        margin: 45px 0 0;
+    }
+    .card_list ul {
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 360px){
+    .card_list {
+        margin: 50px 0 0;
+    }
 }

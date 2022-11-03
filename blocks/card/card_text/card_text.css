@@ -1,27 +1,93 @@
-@import url("../card_two-buttons/card_two-buttons.css");
+@import url('../card_two-buttons/card_two-buttons.css');
 
 .card_text {
-    padding: 80px 0 100px 70px;
-    width: 560px;   
+  padding: 80px 0 100px 70px;
+  width: 490px;
 }
 
 .pc-game-developers .card_text {
-    padding: 60px 0 100px 70px;
+  padding: 60px 0 100px 70px;
+  width: 560px;
+}
+.game-sales .card_text {
+  padding: 80px 70px 100px 0;
+  width: 490px;
+}
+.multi-platform-publishing .card_text {
+  padding: 80px 70px 100px 0;
+  width: 490px;
 }
 
 .revenue-opportunities .card_text {
-    padding: 80px 0 0 70px;
+  padding: 80px 0 0 70px;
 }
 
 .get-our-ebook .card_text {
-    padding: 65px 0 100px 70px;
-    width: 420px;
+  padding: 65px 0 100px 70px;
+  width: 420px;
 }
 
 .use-cases .card_text {
-    padding: 80px 0 0 70px;
+  padding: 80px 0 0 70px;
 }
 
 .contact-us .card_text {
-    width: 420px;
+  width: 420px;
+}
+
+@media screen and (max-width: 1024px) {
+  .pc-game-developers .card_text {
+    padding: 50px 0 80px 80px;
+    width: 432px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pc-game-developers .card_text {
+    padding: 36px 0 60px 80px;
+    width: 304px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .pc-game-developers .card_text {
+    padding: 35px 0 0 20px;
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card_text {
+    padding: 55px 0 80px 54px;
+    width: 378px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card_text {
+    padding: 51px 0 60px 38px;
+    width: 266px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card_text {
+    padding: 40px 20px 0 20px;
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .game-sales .card_text {
+    padding: 55px 54px 80px 0;
+    width: 378px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .game-sales .card_text {
+    padding: 51px 38px 60px 0;
+    width: 266px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .game-sales .card_text {
+    padding: 40px 20px 0 20px;
+    width: 320px;
+  }
 }

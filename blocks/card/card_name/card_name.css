@@ -21,3 +21,30 @@
 .revenue-opportunities .card_name {
     color: rgba(255, 255, 255, 0.7); 
 }
+
+  @media screen and (max-width: 768px){
+    .pc-game-developers .card_name {
+        font-size: 10px;
+        line-height: 10px;
+    }
+  }
+  @media screen and (max-width: 360px){
+    .pc-game-developers .card_name {
+        font-size: 12px;
+        line-height: 18px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px){
+    .card_name {
+        font-size: 12px;
+        line-height: 12px;
+    }
+  }
+  @media screen and (max-width: 360px){
+    .card_name {
+        font-size: 14px;
+        line-height: 20px;
+    }
+  }

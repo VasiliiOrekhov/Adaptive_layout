@@ -18,3 +18,18 @@
 .contact-us .pink-button {
     margin: 17px 0 0 360px;
 }
+
+@media screen and (max-width: 768px){
+    .pink-button {
+        font-size: 12px;
+        line-height: 18px;
+        width: 190px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 360px){
+    .pink-button {
+        width: 320px;
+        height: 40px;
+    }
+}

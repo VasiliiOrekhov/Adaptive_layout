@@ -6,4 +6,17 @@
     background-color: #070708;
     display: flex;
     justify-content: space-between;
+    /* overflow: hidden; */
     }
+
+@media screen and (max-width: 1024px){
+    .pc-game-developers {
+        margin: 0;
+        }
+}
+
+@media screen and (max-width: 360px){
+    .pc-game-developers {
+        display: block;
+        }
+}
