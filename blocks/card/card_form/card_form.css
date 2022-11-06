@@ -1,14 +1,36 @@
-@import url("./input-container/input-container.css");
+@import url('./input-container/input-container.css');
 
 .card_form {
-    width: 700px;
-    height: 592px;
-    background-color: #F1F2F3;
-    margin: 63px 0 0;
-    border: none;
+  width: 700px;
+  height: 592px;
+  background-color: #f1f2f3;
+  margin: 63px 0 0;
+  border: none;
 }
 
 .contact-us .card_form {
-    margin: 75px 0 0;
-    height: 578px;
+  margin: 75px 0 0;
+  height: 578px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card_form {
+    width: 540px;
+    height: 562px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card_form {
+    width: 380px;
+    height: 467px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card_form {
+    width: 360px;
+    height: 447px;
+    margin: 0;
+  }
 }

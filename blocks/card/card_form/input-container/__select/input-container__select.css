@@ -1,15 +1,35 @@
 .input-container__select {
-    box-sizing: border-box;
-    width: 560px;
-    height: 48px;
-    margin-top: 5px;
-    padding: 0;
-    background-color: white;
-    border: none;
-    font-family: "sgbook20";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    padding: 0 14px;
+  box-sizing: border-box;
+  width: 560px;
+  height: 48px;
+  margin-top: 5px;
+  padding: 0;
+  background-color: white;
+  border: none;
+  font-family: 'sgbook20';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 0 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .input-container__select {
+    width: 432px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .input-container__select {
+    width: 304px;
+    height: 40px;
+    padding: 0 12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .input-container__select {
+    width: 320px;
+    font-size: 12px;
+    line-height: 16px;
+  }
 }

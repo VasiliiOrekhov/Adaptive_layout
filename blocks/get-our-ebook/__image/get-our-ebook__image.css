@@ -1,6 +1,28 @@
 .get-our-ebook__image {
-    margin-top: 40px;
-    margin-left: -15px;
-    height: 150px;
-    width: 330px;
+  margin-top: 40px;
+  margin-left: -15px;
+  height: 150px;
+  width: 330px;
+}
+
+@media screen and (max-width: 1024px) {
+  .get-our-ebook__image {
+    width: 250px;
+    height: 110px;
+    margin: 35px 0 0 -12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .get-our-ebook__image {
+    width: 246px;
+    height: 110px;
+    margin: 28px 0 0 -12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .get-our-ebook__image {
+    width: 210px;
+    height: 95px;
+    margin: 18px 0 0 -10px;
+  }
 }

@@ -1,0 +1,11 @@
+@import url('./_button/use-cases__logo_button.css');
+.use-cases__logo_buttons {
+  /* background-color: #18171c; */
+  background-color: red;
+  border: none;
+  margin-left: 440px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 25px);
+  grid-column-gap: 20px;
+}

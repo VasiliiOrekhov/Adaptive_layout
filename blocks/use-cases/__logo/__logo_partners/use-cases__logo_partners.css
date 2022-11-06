@@ -1,0 +1,10 @@
+.use-cases__logo_partners {
+  display: grid;
+  height: max-content;
+  width: 607px;
+  grid-template-columns: repeat(4, auto);
+  grid-column-gap: 60px;
+  align-items: center;
+  justify-items: center;
+  padding: 0;
+}

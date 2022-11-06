@@ -1,6 +1,5 @@
-@import url("./two-columns__card_list/two-columns__card_list.css");
+@import url('./two-columns__card_list/two-columns__card_list.css');
 
 .two-columns__column {
-    width: 546px;
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }

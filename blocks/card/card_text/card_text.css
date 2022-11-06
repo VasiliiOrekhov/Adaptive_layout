@@ -9,26 +9,21 @@
   padding: 60px 0 100px 70px;
   width: 560px;
 }
-.game-sales .card_text {
-  padding: 80px 70px 100px 0;
-  width: 490px;
-}
+.game-sales .card_text,
 .multi-platform-publishing .card_text {
   padding: 80px 70px 100px 0;
   width: 490px;
 }
 
-.revenue-opportunities .card_text {
+.revenue-opportunities .card_text,
+.use-cases .card_text {
   padding: 80px 0 0 70px;
+  width: 520px;
 }
 
 .get-our-ebook .card_text {
   padding: 65px 0 100px 70px;
   width: 420px;
-}
-
-.use-cases .card_text {
-  padding: 80px 0 0 70px;
 }
 
 .contact-us .card_text {
@@ -40,11 +35,53 @@
     padding: 50px 0 80px 80px;
     width: 432px;
   }
+  .game-sales .card_text,
+  .multi-platform-publishing .card_text {
+    padding: 55px 54px 80px 0;
+    width: 378px;
+  }
+  .revenue-opportunities .card_text {
+    padding: 55px 0 0 54px;
+    width: 360px;
+  }
+  .get-our-ebook .card_text {
+    padding: 0 54px 0;
+    width: 325px;
+  }
+  .use-cases .card_text {
+    padding: 55px 0 0 54px;
+    width: 486px;
+  }
+  .card_text {
+    padding: 55px 0 80px 54px;
+    width: 378px;
+  }
 }
 @media screen and (max-width: 768px) {
   .pc-game-developers .card_text {
     padding: 36px 0 60px 80px;
     width: 304px;
+  }
+  .game-sales .card_text,
+  .multi-platform-publishing .card_text {
+    padding: 51px 38px 60px 0;
+    width: 266px;
+  }
+  .revenue-opportunities .card_text {
+    padding: 51px 0 0 38px;
+    width: 280px;
+  }
+  .get-our-ebook .card_text {
+    padding: 0 38px 0;
+    width: 228px;
+  }
+  .use-cases .card_text {
+    padding: 51px 0 0 38px;
+    width: 342px;
+  }
+  .card_text {
+    padding: 51px 0 60px 38px;
+    width: 266px;
   }
 }
 @media screen and (max-width: 360px) {
@@ -52,42 +89,16 @@
     padding: 35px 0 0 20px;
     width: 320px;
   }
-}
-
-@media screen and (max-width: 1024px) {
+  .game-sales .card_text,
+  .multi-platform-publishing .card_text,
+  .revenue-opportunities .card_text,
+  .use-cases .card_text,
   .card_text {
-    padding: 55px 0 80px 54px;
-    width: 378px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .card_text {
-    padding: 51px 0 60px 38px;
-    width: 266px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .card_text {
-    padding: 40px 20px 0 20px;
+    padding: 40px 20px 0;
     width: 320px;
   }
-}
-
-@media screen and (max-width: 1024px) {
-  .game-sales .card_text {
-    padding: 55px 54px 80px 0;
-    width: 378px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .game-sales .card_text {
-    padding: 51px 38px 60px 0;
-    width: 266px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .game-sales .card_text {
-    padding: 40px 20px 0 20px;
+  .get-our-ebook .card_text {
+    padding: 40px 20px 0;
     width: 320px;
   }
 }
