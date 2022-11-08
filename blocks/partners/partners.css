@@ -1,6 +1,21 @@
 @import url("./__menu/partners__menu.css");
 
 .partners {
-    width: 1440px;
     height: 155px; 
 }
+
+@media screen and (max-width: 1024px){
+    .partners {
+        height: 110px; 
+    }
+  }
+  @media screen and (max-width: 768px){
+    .partners {
+        height: 82px; 
+    }
+  }
+  @media screen and (max-width: 360px){
+    .partners {
+        height: 205px; 
+    }
+  }

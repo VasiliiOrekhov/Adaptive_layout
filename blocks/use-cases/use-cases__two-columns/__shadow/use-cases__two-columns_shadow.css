@@ -1,8 +1,27 @@
 .use-cases__two-columns_shadow {
-    display: flex;
-    position:absolute;
-    margin-right: 0;
-    margin-top: -18px;
-    margin-left: 809px;
-    height: 418px;
+  display: flex;
+  position: absolute;
+  right: 90px;
+  height: 430px;
+}
+
+@media screen and (max-width: 1024px) {
+  .use-cases__two-columns_shadow {
+    margin: 0;
+    right: 26px;
+    height: 345px;
+  }
+  .use-cases__two-columns_shadow img {
+    min-height: 345px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .use-cases__two-columns_shadow {
+    margin: 0;
+    right: 42px;
+    height: 275px;
+  }
+  .use-cases__two-columns_shadow img {
+    min-height: 275px;
+  }
 }

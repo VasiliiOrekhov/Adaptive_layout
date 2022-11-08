@@ -1,9 +1,27 @@
-@import url("./__image/get-our-ebook__image.css");
-@import url("../card/card.css");
+@import url('./__image/get-our-ebook__image.css');
+@import url('../card/card.css');
 
 .get-our-ebook {
-    background-color: #FFFFFF;
-    margin: 0 90px 0;
-    display: flex;
-    justify-content: space-between;
+  background-color: #ffffff;
+  margin: 0 90px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .get-our-ebook {
+    margin: 55px 26px 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .get-our-ebook {
+    margin: 45px 42px 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .get-our-ebook {
+    margin: 60px 0 0;
+    display: block;
+    background-color: #f1f2f3;
+  }
 }

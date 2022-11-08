@@ -1,20 +1,48 @@
 .pink-button {
-    font-family: "sgmedium20";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    background-color: #FF0055;
-    border: 0;
-    color: white;
-    width: 200px;
-    height: 48px;
+  font-family: 'sgmedium20';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #ff0055;
+  border: 0;
+  color: white;
+  width: 200px;
+  height: 48px;
 }
 
 .get-our-ebook .pink-button {
-    margin: 40px 0 0 360px;
+  margin: 40px 0 0 360px;
 }
 
 .contact-us .pink-button {
-    margin: 17px 0 0 360px;
+  margin: 40px 0 0 360px;
+}
+@media screen and (max-width: 1024px) {
+  .get-our-ebook .pink-button,
+  .contact-us .pink-button {
+    margin: 40px 0 0 232px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pink-button {
+    font-size: 12px;
+    line-height: 18px;
+    width: 190px;
+    height: 40px;
+  }
+  .get-our-ebook .pink-button,
+  .contact-us .pink-button {
+    margin: 30px 0 0 114px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .pink-button {
+    width: 320px;
+    height: 40px;
+  }
+  .get-our-ebook .pink-button,
+  .contact-us .pink-button {
+    margin: 35px 0 0;
+  }
 }
