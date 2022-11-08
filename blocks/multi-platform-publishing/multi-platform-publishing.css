@@ -1,26 +1,9 @@
-@import url('./__image/multi-platform-publishing__image.css');
-@import url('../card/card.css');
+@import url("./__image/multi-platform-publishing__image.css");
+@import url("../card/card.css");
 
 .multi-platform-publishing {
-  margin: 45px 90px 0;
-  background-color: #f1f2f3;
-  display: flex;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 1024px) {
-  .multi-platform-publishing {
-    margin: 35px 26px 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  .multi-platform-publishing {
-    margin: 45px 42px 0;
-  }
-}
-@media screen and (max-width: 360px) {
-  .multi-platform-publishing {
-    margin: 60px 0 0;
-    flex-direction: column-reverse;
-  }
+    margin: 45px 90px 0;
+    background-color: #F1F2F3;
+    display: flex;
+    justify-content: space-between; 
 }

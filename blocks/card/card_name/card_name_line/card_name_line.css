@@ -12,15 +12,3 @@
 .revenue-opportunities .card_name_line {
     border: 1px solid rgba(255, 255, 255, 0.7);
 }
-
-
-  @media screen and (max-width: 768px){
-    .card_name_line {
-        width: 76px;
-    }
-  }
-  @media screen and (max-width: 360px){
-    .card_name_line {
-        width: 60px;
-    }
-  }

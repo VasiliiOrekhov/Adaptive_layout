@@ -7,20 +7,3 @@
     display: flex;
     justify-content: space-between;
 }
-
-@media screen and (max-width: 1024px){
-    .game-sales {
-        margin: 35px 26px 0;
-    }
-}
-@media screen and (max-width: 768px){
-    .game-sales {
-        margin: 45px 42px 0;
-    }
-}
-@media screen and (max-width: 360px){
-    .game-sales {
-        margin: 60px 0 0;
-        flex-direction: column-reverse;
-    }
-}

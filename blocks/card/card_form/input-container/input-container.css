@@ -1,29 +1,12 @@
-@import url('./__input/input-container__input.css');
-@import url('./__label/input-container__label.css');
-@import url('./__select/input-container__select.css');
-@import url('../card_form.css');
-@import url('../input-container/__textarea/input-container__textarea.css');
+@import url("./__input/input-container__input.css");
+@import url("./__label/input-container__label.css");
+@import url("./__select/input-container__select.css");
+@import url("../card_form.css");
+@import url("../input-container/__textarea/input-container__textarea.css");
 
 .input-container {
-  margin: 89px 60px 0;
-  border: none;
-  display: flex;
-  flex-direction: column;
-}
-
-@media screen and (max-width: 1024px) {
-  .input-container {
-    margin: 64px 54px 0;
-    padding: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  .input-container {
-    margin: 45px 38px 0;
-  }
-}
-@media screen and (max-width: 360px) {
-  .input-container {
-    margin: 50px 20px 0;
-  }
+    margin: 89px 60px 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
 }

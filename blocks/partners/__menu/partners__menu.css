@@ -7,23 +7,3 @@
     margin: auto 160px auto;
     padding-top: 60px;
 }
-
-@media screen and (max-width: 1024px){
-    .partners__menu {
-        margin: auto 68px auto;
-        padding-top: 36px;
-    }
-  }
-  @media screen and (max-width: 768px){
-    .partners__menu {
-        margin: auto 61px auto;
-        padding-top: 23px;
-    }
-  }
-  @media screen and (max-width: 360px){
-    .partners__menu {
-        margin: 0 15px 0;
-        padding-top: 4px;
-        flex-wrap: wrap;
-    }
-  }

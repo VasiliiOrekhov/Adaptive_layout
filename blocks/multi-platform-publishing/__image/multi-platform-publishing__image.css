@@ -1,23 +1,4 @@
 .multi-platform-publishing__image {
-  margin: 155px 0 0;
-  height: 638px;
-}
-
-@media screen and (max-width: 1024px) {
-  .multi-platform-publishing__image {
-    margin: 212px 0 0;
-    height: 486px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .multi-platform-publishing__image {
-    margin: 207px 0 0;
-    height: 344px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .multi-platform-publishing__image {
-    margin: 80px 18px 50px 0;
-    height: 350px;
-  }
+    margin: 155px 0 0;
+    height: 638px;   
 }
