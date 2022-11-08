@@ -4,25 +4,3 @@
     padding-left: 60px;
     margin: 0; 
 }
-
-@media screen and (max-width: 1024px){
-    .header__logo {
-        height: 70px;
-        width: 70px;
-        padding-left: 43px; 
-    }
-}
-@media screen and (max-width: 768px){
-    .header__logo {
-        height: 53px;
-        width: 53px;
-        padding-left: 42px; 
-    }
-}
-@media screen and (max-width: 360px){
-    .header__logo {
-        height: 64px;
-        width: 64px;
-        padding-left: 20px; 
-    }
-}

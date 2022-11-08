@@ -2,22 +2,3 @@
     margin: 167px 0 0;
     height: 638px;
 }
-
-@media screen and (max-width: 1024px){
-    .in-game-store__image {
-        margin: 235px 0 0;
-        height: 496px;
-    }
-}
-@media screen and (max-width: 768px){
-    .in-game-store__image {
-        margin: 242px 0 0;
-        height: 334px;
-    }
-}
-@media screen and (max-width: 360px){
-    .in-game-store__image {
-        margin: 67px 0 68px 17px;
-        height: 338px;
-    }
-}

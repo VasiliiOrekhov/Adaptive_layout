@@ -5,22 +5,3 @@
     margin-top: 65px;
     display: flex;  
 }
-
-@media screen and (max-width: 1024px){
-    .card_two-buttons {
-        margin-top: 50px;
-        display: block;  
-    }
-}
-@media screen and (max-width: 768px){
-    .card_two-buttons {
-        margin-top: 30px;
-        display: block;  
-    }
-}
-@media screen and (max-width: 360px){
-    .card_two-buttons {
-        margin-top: 50px;
-        display: block;  
-    }
-}   

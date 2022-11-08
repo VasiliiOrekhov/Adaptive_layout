@@ -4,9 +4,3 @@
 .header__buttons {
     margin-top: 49px;
 }
-
-@media screen and (max-width: 1024px){
-    .header__buttons {
-        display: none;
-    }  
-}

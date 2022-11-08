@@ -1,21 +1,9 @@
 .two-columns__card_list-text {
-  font-family: 'sgbook20';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #18171c;
-  margin-left: -20px;
-}
-@media screen and (max-width: 768px) {
-  .two-columns__card_list-text {
-    font-size: 12px;
-    line-height: 20px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .two-columns__card_list-text {
+    font-family: "sgbook20";
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
-  }
+    line-height: 24px;
+    color: #18171C;
+    margin-left:  -20px;
 }

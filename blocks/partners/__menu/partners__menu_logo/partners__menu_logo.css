@@ -2,20 +2,3 @@
     width: max-content;
     height: max-content;
 }
-
-@media screen and (max-width: 1024px){
-    .partners__menu_logo  {
-        transform: scale(0.7);  
-    }
-  }
-  @media screen and (max-width: 768px){
-    .partners__menu_logo  {
-        transform: scale(0.53);  
-    }
-  }
-  @media screen and (max-width: 360px){
-    .partners__menu_logo  {
-        transform: scale(0.84);
-        margin-top: 45px;  
-    }
-  }

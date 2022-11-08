@@ -1,12 +1,9 @@
-@import url(header__menu_link/header__menu_link.css);
-
 .header__menu_links {
 font-family: "sgbook20";
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
-color: #070708;
 }
 
 .header__menu_links:last-child {

@@ -1,45 +1,23 @@
-@import url('./card_name_line/card_name_line.css');
+@import url("./card_name_line/card_name_line.css");
 .card_name {
-  display: flex;
-  font-family: 'sgbook20';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: rgba(24, 23, 28, 0.7);
-  margin: 0;
-}
-
-.pc-game-developers .card_name,
-.use-cases .card_name,
-.revenue-opportunities .card_name {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-@media screen and (max-width: 1024px) {
-  .multi-platform-publishing .card_name {
-    width: 400px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .pc-game-developers .card_name {
-    font-size: 10px;
-    line-height: 10px;
-  }
-  .card_name,
-  .revenue-opportunities .card_name {
-    font-size: 12px;
-    line-height: 12px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .pc-game-developers .card_name {
-    font-size: 12px;
-    line-height: 18px;
-  }
-  .revenue-opportunities .card_name,
-  .card_name {
-    font-size: 14px;
+    display: flex;
+    font-family:"sgbook20";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
     line-height: 20px;
-  }
+    color: rgba(24, 23, 28, 0.7);
+    margin: 0;
+}
+
+.pc-game-developers .card_name {
+    color: rgba(255, 255, 255, 0.7);  
+}
+
+.use-cases .card_name {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.revenue-opportunities .card_name {
+    color: rgba(255, 255, 255, 0.7); 
 }

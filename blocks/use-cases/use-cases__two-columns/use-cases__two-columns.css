@@ -1,44 +1,13 @@
-@import url('./__shadow/use-cases__two-columns_shadow.css');
-@import url('./__text/use-cases__two-columns_text.css');
+@import url("./__shadow/use-cases__two-columns_shadow.css");
+@import url("./__text/use-cases__two-columns_text.css");
 
 .use-cases__two-columns {
-  display: grid;
-  grid-template-columns: 630px 420px;
-  margin-top: 60px;
-  margin-left: 70px;
-  grid-column-gap: 70px;
-  grid-row-gap: 15px;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 1024px) {
-  .use-cases__two-columns {
-    grid-template-columns: 486px 402px;
-    margin-top: 45px;
-    margin-left: 54px;
-    grid-column-gap: 30px;
-  }
-  .use-cases__two-columns img {
-    max-height: 282px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .use-cases__two-columns {
-    grid-template-columns: 342px 266px;
-    margin-top: 23px;
-    margin-left: 38px;
-    grid-column-gap: 38px;
-  }
-  .use-cases__two-columns img {
-    max-height: 198px;
-  }
-}
-@media screen and (max-width: 360px) {
-  .use-cases__two-columns {
-    display: block;
-    margin: 32px 20px 0;
-  }
-  .use-cases__two-columns img {
-    max-height: 194px;
-  }
+    display: grid;
+    grid-template-columns: 630px 420px;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 70px;
+    grid-column-gap: 70px;
+    grid-row-gap: 15px;
+    overflow: hidden;
 }

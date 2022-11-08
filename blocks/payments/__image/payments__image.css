@@ -2,22 +2,3 @@
     margin: 154px 0 0;
     height: 634px;
 }
-
-@media screen and (max-width: 1024px){
-    .payments__image {
-        margin: 237px 0 0;
-        height: 492px;
-    }
-}
-@media screen and (max-width: 768px){
-    .payments__image {
-        margin: 248px 0 0;
-        height: 337px;
-    }
-}
-@media screen and (max-width: 360px){
-    .payments__image {
-        margin: 67px 0 68px 17px;
-        height: 345px;
-    }
-}
