@@ -19,6 +19,10 @@
     height: 562px;
     margin: 0;
   }
+  .contact-us .card_form {
+    margin: 55px 0 0;
+    height: 548px;
+  }
 }
 @media screen and (max-width: 768px) {
   .card_form {
@@ -26,11 +30,20 @@
     height: 467px;
     margin: 0;
   }
+  .contact-us .card_form {
+    margin: 45px 0 0;
+    height: 455px;
+  }
 }
 @media screen and (max-width: 360px) {
   .card_form {
     width: 360px;
     height: 447px;
+    margin: 0;
+  }
+  .contact-us .card_form {
+    width: 360px;
+    height: 435px;
     margin: 0;
   }
 }

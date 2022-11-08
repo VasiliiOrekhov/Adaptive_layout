@@ -16,10 +16,11 @@
 }
 
 .contact-us .pink-button {
-  margin: 17px 0 0 360px;
+  margin: 40px 0 0 360px;
 }
 @media screen and (max-width: 1024px) {
-  .get-our-ebook .pink-button {
+  .get-our-ebook .pink-button,
+  .contact-us .pink-button {
     margin: 40px 0 0 232px;
   }
 }
@@ -30,7 +31,8 @@
     width: 190px;
     height: 40px;
   }
-  .get-our-ebook .pink-button {
+  .get-our-ebook .pink-button,
+  .contact-us .pink-button {
     margin: 30px 0 0 114px;
   }
 }
@@ -39,7 +41,8 @@
     width: 320px;
     height: 40px;
   }
-  .get-our-ebook .pink-button {
+  .get-our-ebook .pink-button,
+  .contact-us .pink-button {
     margin: 35px 0 0;
   }
 }
