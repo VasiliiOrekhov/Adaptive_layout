@@ -1,12 +1,32 @@
 .two-columns__card_list_button {
-    font-family: "sgbook20";
-    font-style: normal;
-    font-weight: 500;
+  font-family: 'sgbook20';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  border: 0;
+  color: #ff0055;
+  background-color: white;
+  padding: 0;
+  margin: 40px 0 45px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .two-columns__card_list_button {
+    margin: 35px 0 40px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .two-columns__card_list_button {
+    margin: 31px 0 30px 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .two-columns__card_list_button {
+    margin: 57px 0 35px 0;
     font-size: 14px;
-    line-height: 20px;
-    border: 0;
-    color: #FF0055;
-    background-color: white;
-    padding-top: 23px;
-    margin: 0 0 45px -5px;  
+    line-height: 18px;
+  }
 }

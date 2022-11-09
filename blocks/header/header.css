@@ -1,14 +1,32 @@
-@import url("./__logo/header__logo.css");
-@import url("./__menu/header__menu.css");
-@import url("./__logo-name/header__logo_name.css");
-@import url("./__menu_link_arrow/header__menu_link_arrow.css");
-@import url("./__menu_links/header__menu_links.css");
-@import url("./__buttons/header__buttons.css");
+@import url('./__logo/header__logo.css');
+@import url('./__menu/header__menu.css');
+@import url('./__logo-name/header__logo_name.css');
+@import url('./__menu_link_arrow/header__menu_link_arrow.css');
+@import url('./__menu_links/header__menu_links.css');
+@import url('./__buttons/header__buttons.css');
+@import url('./__menu-button/header__menu-button.css');
+@import url('./__side-menu/header__side-menu.css');
+@import url('./__hamb/header__hamb.css');
 
 .header {
-    display: flex;    
-    position: relative;
-    width: 1440px;
-    height: 140px;
-    background-color: white;
+  display: flex;
+  position: relative;
+  height: 140px;
+  background-color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 105px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    height: 75px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .header {
+    height: 80px;
+  }
 }

@@ -1,9 +1,33 @@
-@import url("./__column/two-columns__column.css");
-@import url("./__image/two-columns__image.css");
+@import url('./__column/two-columns__column.css');
+@import url('./__image/two-columns__image.css');
 
 .two-columns {
-    display: grid;
-    grid-template-columns: repeat(2, 546px);
-    margin: 63px 0 0 70px;
-    grid-column-gap: 28px;
+  display: grid;
+  grid-template-columns: repeat(2, 546px);
+  margin: 63px 0 0 70px;
+  grid-column-gap: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+  .two-columns {
+    grid-template-columns: repeat(2, 420px);
+    margin: 40px 54px 0;
+    grid-column-gap: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .two-columns {
+    grid-template-columns: repeat(2, 294px);
+    margin: 35px 38px 0;
+    grid-column-gap: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .two-columns {
+    margin: 40px 20px 0;
+    display: block;
+  }
+  .revenue-opportunities .no360 {
+    display: none;
+  }
 }

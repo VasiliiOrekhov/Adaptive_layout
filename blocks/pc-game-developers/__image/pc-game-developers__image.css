@@ -4,3 +4,26 @@
     margin: 127px 0 0;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 1024px){
+    .pc-game-developers__image {
+        width: 497px;
+        height: 373px;
+        margin: 134px 0 0;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .pc-game-developers__image {
+        width: 352px;
+        height: 258px;
+        margin: 115px 0 0;
+    }
+  }
+  @media screen and (max-width: 360px){
+    .pc-game-developers__image {
+        width: 341px;
+        height: 261px;
+        margin: 69px 0 70px 19px;
+        
+    }
+  }

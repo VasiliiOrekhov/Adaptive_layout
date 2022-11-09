@@ -1,12 +1,24 @@
-@import url("./__button/use-case__button.css");
+@import url('./__button/use-case__button.css');
+@import url('./__logo_partners/use-cases__logo_partners.css');
+@import url('./__logo_buttons/use-cases__logo_buttons.css');
 
 .use-cases__logo {
-    display: grid;
-    height: max-content;
-    width: 1120px;
-    grid-template-columns: repeat(6, auto);
-    grid-column-gap: 61px;
-    align-items: center;
-    justify-items: center;
-    margin: 75px 0 0 70px;
+  display: flex;
+  margin: 75px 70px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .use-cases__logo {
+    margin: 50px 55px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .use-cases__logo {
+    margin: 45px 38px 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .use-cases__logo {
+    margin: 55px 20px 0;
+  }
 }

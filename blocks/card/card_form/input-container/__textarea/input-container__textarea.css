@@ -1,15 +1,36 @@
 .input-container__textarea {
-    box-sizing: border-box;
-    width: 560px;
+  box-sizing: border-box;
+  width: 560px;
+  height: 128px;
+  margin: 5px 0 0px;
+  padding: 0;
+  background-color: rgba(24, 23, 28, 0.07);
+  border: none;
+  font-family: 'sgbook20';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  .input-container__textarea {
+    width: 432px;
     height: 128px;
-    margin: 5px 0 23px;
-    padding: 0;
-    background-color: rgba(24, 23, 28, 0.07);
-    border: none;
-    font-family: "sgbook20";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    padding: 15px 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .input-container__textarea {
+    width: 304px;
+    height: 112px;
+    padding: 0 12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .input-container__textarea {
+    width: 320px;
+    font-size: 12px;
+    line-height: 16px;
+  }
 }

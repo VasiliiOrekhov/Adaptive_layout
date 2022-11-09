@@ -1,9 +1,26 @@
-@import url("../card/card.css");
-@import url("../payments/__image/payments__image.css");
+@import url('../card/card.css');
+@import url('../payments/__image/payments__image.css');
 
 .payments {
-    background-color: #F1F2F3;
-    margin: 0 90px 0;
-    display: flex;
-    justify-content: space-between;
+  background-color: #f1f2f3;
+  margin: 0 90px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .payments {
+    margin: 0 26px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .payments {
+    margin: 0 42px 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .payments {
+    margin: 0;
+    display: block;
+  }
 }
